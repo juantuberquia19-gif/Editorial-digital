@@ -1,0 +1,61 @@
+/* Opiniones.css */
+
+.container {
+  max-width: 1200px;
+}
+
+h6.fw-bold.text-uppercase {
+  font-family: 'Georgia', serif;
+  letter-spacing: 2px;
+}
+
+a.small.text-muted {
+  text-decoration: none;
+}
+
+a.small.text-muted:hover {
+  text-decoration: underline;
+}
+
+.col-md-2.text-center {
+  transition: transform 0.3s ease;
+}
+
+.col-md-2.text-center:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.col-md-2 img {
+  border: 3px solid #bfcddb;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.fst-italic {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+.fw-bold {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  color: #222;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .col-md-2.text-center {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-2.text-center {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 1.5rem;
+  }
+}
